@@ -1,6 +1,7 @@
 require("@matterlabs/hardhat-zksync-solc");
 
 /** @type import('hardhat/config').HardhatUserConfig */
+
 module.exports = {
   zksolc: {
     version: "1.3.9",
@@ -41,3 +42,24 @@ module.exports = {
     },
   },
 };
+
+
+//import { HardhatUserConfig } from "hardhat/config";
+//import "@nomicfoundation/hardhat-toolbox";
+
+//require('dotenv').config();
+/*
+const config = {
+  solidity: "0.8.23",
+  networks: {
+    // for testnet
+    'lisk-sepolia': {
+      url: 'https://rpc.sepolia-api.lisk.com',
+      accounts: [process.env.WALLET_KEY],
+      gasPrice: 1000000000,
+    },
+  },
+};
+
+export default config;
+*/
